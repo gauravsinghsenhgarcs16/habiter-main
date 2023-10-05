@@ -1,0 +1,49 @@
+.container {
+  width: 80%;
+  height: auto;
+  background-color: rgb(247, 245, 214);
+  margin: auto;
+  margin-bottom: 20px;
+  border-radius: 20px;
+  padding: 20px;
+  font-family: Times, serif;
+  box-shadow: 3px 4px 2px rgb(22, 21, 21);
+}
+
+.container h3 {
+  font-size: 1.8rem;
+  color: rgb(82, 79, 79);
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+.container div {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.container p {
+  font-size: 1.2rem;
+  font-weight: 550;
+}
+.container ion-icon {
+  font-size: 2.5rem;
+  color: rgb(245, 63, 63);
+}
+.container ion-icon:hover {
+  color: grey;
+}
+.container button {
+  padding: 7px;
+  background-color: rgba(255, 0, 0, 0.694);
+  color: white;
+  font-size: 1.2rem;
+  border-radius: 5px;
+  cursor: pointer;
+  box-shadow: 2px 2px 1px rgb(22, 21, 21);
+}
+.container button:hover {
+  box-shadow: 2px 2px 1px rgb(22, 21, 21) inset;
+}

@@ -1,0 +1,30 @@
+.container {
+  background-color: rgb(244, 239, 154);
+  width: 80%;
+  height: auto;
+  padding: 1.3rem;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: -50px;
+  margin-left: 50px;
+  flex-wrap: wrap;
+  border-radius: 20px;
+  box-shadow: 3px 4px 2px rgb(22, 21, 21);
+}
+.container label {
+  font-family: 'Times New Roman', Times, serif;
+  font-weight: 600;
+  font-size: 1.3rem;
+}
+
+.container input {
+  border: 2px solid rgb(158, 158, 158);
+  font-size: 1.2rem;
+  padding: 4px;
+  border-radius: 2px;
+  margin-bottom: 1.3rem;
+}
+.container input::placeholder {
+  color: gray;
+}
